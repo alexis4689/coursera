@@ -3,9 +3,9 @@
 
 angular.module('myfirstapp', [])
 
-.controller('myfirstcontroller', function ($scope) {
+.controller('myfirstcontroller', function ($SCOPE) {
 
-  $scope.name = "az"
+  $SCOPE.name = "az"
 });
 
 
